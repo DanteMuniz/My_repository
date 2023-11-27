@@ -1,3 +1,38 @@
-*{
-    background-color: #41a2a4;
+
+/* Estilos generales */
+:root{
+    --color-principal: #FFFFFF;
+    --color-secondary:#02b0d8;
+
+    --color-background:#F2F7F9;
+    --color-transparent:transparent;
+
+    --color-icon:#B5B6B7;
+    --color-titles:#222222;
+    --color-subtitle:#888;
+    --color-text: #555;
+}
+
+/* Estilos generales */
+html{
+    font-size: 10px;
+}
+body{
+    width: 100%;
+    height: auto;
+    font-family: "Poppins";
+    font-size: 1.5rem;
+    background-color: var(--color-principal);
+    color: var(--color-text);
+}
+
+
+/* Estructura Principal */
+.layout{
+    position: relative;
+    min-width: 1290px;
+    width: 75%;
+    height: 80vh;
+    min-height: 80vh;
+    border: 1px solid red;
 }
